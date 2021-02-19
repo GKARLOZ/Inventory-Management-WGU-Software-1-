@@ -1,6 +1,8 @@
 # Inventory-Management-WGU-Software-1-
 Inventory Management application 
 
+This entire class project is coded in Java and can be compiled using cmd.
+
 The application lets you add, modify or delete a part with certain restrictions. The part needs to have a unique identification and can't be repeated.
 The application also lets you add, modify, and delete a product with a unique identification. The product can not be deleted if a part is associated to 
 the product. 
