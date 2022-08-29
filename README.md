@@ -1,28 +1,47 @@
-# Inventory-Management-WGU-Software-1-
-Inventory Management application 
 
-This entire class project is coded in Java and can be compiled using cmd.
 
-The application lets you add, modify or delete a part with certain restrictions. The part needs to have a unique identification and can't be repeated.
-The application also lets you add, modify, and delete a product with a unique identification. The product can not be deleted if a part is associated to 
-the product. 
 
-The following competency are demostrated in this class project. 
 
-Competency 4003.1.1: Declaration of Classes and Variables.
-The graduate develops and uses classes and variables in code development.
+## VS CODE GUIDELINES 
 
-Competency 4003.1.2: Object-Oriented Development.
-The graduate uses object-oriented concepts and programming techniques to develop
-applications that are flexible and maintainable.
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-Competency 4003.1.3: Flow of Control.
-The graduate applies appropriate control structures to develop robust applications.
+### Folder Structure
 
-Competency 4003.1.4: Strings, Streams, and Parsing.
-The graduate uses appropriate Application Programming Interface (API) classes and.
-interfaces to perform efficient string, pattern, and stream processing.
+The workspace contains two folders by default, where:
 
-Competency 4003.1.5: Inheritance.
-The graduate applies concepts to understand and implement the concepts of.
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
+### Dependency Management
+
+
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+JavaFX jars need to be added in the Referenced Libraries in the Java Projects to run this program. 
+
+ 
+ ## Clone this project 
+
+ git clone (copied linked)
+
+ ## Importante 
+
+ In order to run this program in VS Code, you need to have JavaFX installed. 
+
+ You could find your JAVAFX version in this link: https://gluonhq.com/products/javafx/
+
+ Once you installed JAVAFX, copy the path of the lib folder (from the JAVAFX that was installed). It should look something like this -->  C:/JavaOne/javafx-sdk-18.0.2/lib
+
+ open the lauch.json file in the .vscode folder and replace the current path with your own path.  It should look something like this -->  "vmArgs": "--module-path C:/JavaOne/javafx-sdk-18.0.2/lib --add-modules javafx.controls,javafx.fxml",
+
+
+ ## Lets GO!
+
+ Now open the Inventory.java file from the src folder 
+ Click run on top of the main method 
+
+ 
