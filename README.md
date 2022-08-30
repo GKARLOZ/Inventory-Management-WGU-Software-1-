@@ -22,14 +22,11 @@
 
  ## Lets GO!
 
- Now open the Inventory.java file from the src folder 
+ Now open the src/Model/Inventory.java file  
  Click run on top of the main method 
     
      Run | Debug
      public static void main(String[] args) {
-
-## Manage your inventory 
-
 
  ## VS CODE GUIDELINES 
 
