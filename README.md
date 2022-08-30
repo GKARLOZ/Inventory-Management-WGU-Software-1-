@@ -28,6 +28,8 @@
      Run | Debug
      public static void main(String[] args) {
 
+## Manage your inventory 
+
 
  ## VS CODE GUIDELINES 
 

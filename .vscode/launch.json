@@ -10,6 +10,14 @@
             "request": "launch",
             "vmArgs": "--module-path C:/JavaOne/javafx-sdk-18.0.2/lib --add-modules javafx.controls,javafx.fxml",
             "mainClass": "Model.Inventory",
+            "projectName": "Inventory-Management-WGU-Software-1-_d938e5fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inventory",
+            "request": "launch",
+            "vmArgs": "--module-path C:/JavaOne/javafx-sdk-18.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "Model.Inventory",
             "projectName": "InventoryOne_82b60123"
         },
         {
