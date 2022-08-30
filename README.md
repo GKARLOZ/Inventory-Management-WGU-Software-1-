@@ -1,8 +1,35 @@
 
+ ## Clone this project 
+
+ git clone (copied linked)
 
 
+ ## Java in VSCODE 
 
-## VS CODE GUIDELINES 
+ Install Java for vs code if you don't already have it. 
+ Use this link: https://code.visualstudio.com/docs/languages/java
+
+ ## Important 
+
+ In order to run this program in VS Code, you need to have JavaFX installed.
+
+ You could find your JAVAFX version in this link: https://gluonhq.com/products/javafx/
+
+ Once you installed JAVAFX, copy the path of the lib folder (from the JAVAFX that was installed). It should look something like this -->  C:/JavaOne/javafx-sdk-18.0.2/lib
+
+ open the .vscode/lauch.json file and replace the current path with your own path.  It should look something like this -->  "vmArgs": "--module-path C:/JavaOne/javafx-sdk-18.0.2/lib --add-modules javafx.controls,javafx.fxml",
+
+
+ ## Lets GO!
+
+ Now open the Inventory.java file from the src folder 
+ Click run on top of the main method 
+    
+     Run | Debug
+     public static void main(String[] args) {
+
+
+ ## VS CODE GUIDELINES 
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
@@ -23,25 +50,5 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 JavaFX jars need to be added in the Referenced Libraries in the Java Projects to run this program. 
 
- 
- ## Clone this project 
-
- git clone (copied linked)
-
- ## Importante 
-
- In order to run this program in VS Code, you need to have JavaFX installed. 
-
- You could find your JAVAFX version in this link: https://gluonhq.com/products/javafx/
-
- Once you installed JAVAFX, copy the path of the lib folder (from the JAVAFX that was installed). It should look something like this -->  C:/JavaOne/javafx-sdk-18.0.2/lib
-
- open the lauch.json file in the .vscode folder and replace the current path with your own path.  It should look something like this -->  "vmArgs": "--module-path C:/JavaOne/javafx-sdk-18.0.2/lib --add-modules javafx.controls,javafx.fxml",
-
-
- ## Lets GO!
-
- Now open the Inventory.java file from the src folder 
- Click run on top of the main method 
 
  
