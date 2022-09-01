@@ -9,11 +9,13 @@
  Install Java for vs code if you don't already have it. 
  Use this link: https://code.visualstudio.com/docs/languages/java
 
- ## Important 
+ ## Important Dependencies!
 
  In order to run this program in VS Code, you need to have JavaFX installed.
-
+ 
  You could find your JAVAFX version in this link: https://gluonhq.com/products/javafx/
+ 
+ JavaFX jars need to be added in the Java Projects/Referenced Libraries folder to run this program. 
 
  Once you installed JAVAFX, copy the path of the lib folder (from the JAVAFX that was installed). It should look something like this -->  C:/JavaOne/javafx-sdk-18.0.2/lib
 
@@ -30,7 +32,7 @@
 
  ## VS CODE GUIDELINES 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
 ### Folder Structure
 
@@ -45,9 +47,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 ### Dependency Management
 
-
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-JavaFX jars need to be added in the Referenced Libraries in the Java Projects to run this program. 
 
 
  
