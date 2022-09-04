@@ -1,10 +1,18 @@
 
- ## Clone this project 
+# Inventory-Management-WGU-Software-1
+
+This application lets the user create Product and Part objects(OOP). Since every part needs to have certain variables, an abstract Part class was created. For that reason, the Part class was extended in the inHouse and Outsourced concrete classes, inheriting the methods from the Part class. The abstract Part class requires the id, name, price, stock, min, and max which are added in the constructor.
+
+The application lets you add, modify or delete a part with certain restrictions. The part needs to have a unique identification and can't be repeated. The application also lets you add, modify, and delete a product with a unique identification. The product can not be deleted if a part is associated with the product.
+ 
+![IMS(MainPanel)](https://user-images.githubusercontent.com/20764455/188293972-b3fcc527-446b-4e5d-8571-0d8fb3716414.png)
+
+## Clone this project 
 
  git clone (copied linked)
 
 
- ## Java in VSCODE 
+## Java in VSCODE 
 
  Install Java for vs code if you don't already have it. 
  Use this link: https://code.visualstudio.com/docs/languages/java
