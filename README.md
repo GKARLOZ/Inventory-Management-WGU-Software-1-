@@ -1,5 +1,5 @@
 
-# Inventory-Management-WGU-Software-1
+# :ledger: Inventory-Management-WGU-Software-1 :technologist:
 
 This application lets the user create Product and Part objects(OOP). Since every part needs to have certain variables, an abstract Part class was created. For that reason, the Part class was extended in the inHouse and Outsourced concrete classes, inheriting the methods from the Part class. The abstract Part class requires the id, name, price, stock, min, and max which are added in the constructor.
 
@@ -7,17 +7,17 @@ The application lets you add, modify or delete a part with certain restrictions.
  
 ![IMS(MainPanel)](https://user-images.githubusercontent.com/20764455/188293972-b3fcc527-446b-4e5d-8571-0d8fb3716414.png)
 
-## Clone this project 
+##  :trollface: Clone this project 
 
  git clone (copied linked)
 
 
-## Java in VSCODE 
+## :warning: Java in VSCODE :warning: 
 
  Install Java for vs code if you don't already have it. 
  Use this link: https://code.visualstudio.com/docs/languages/java
 
- ## Important Dependencies!
+ ## :warning: Important Dependencies! :warning:
 
  In order to run this program in VS Code, you need to have JavaFX installed.
  
@@ -30,7 +30,7 @@ The application lets you add, modify or delete a part with certain restrictions.
  open the .vscode/lauch.json file and replace the current path with your own path.  It should look something like this -->  "vmArgs": "--module-path C:/JavaOne/javafx-sdk-18.0.2/lib --add-modules javafx.controls,javafx.fxml",
 
 
- ## Lets GO!
+ ## :rocket:	Lets GO! :rocket:	
 
  Now open the src/Model/Inventory.java file  
  Click run on top of the main method 
